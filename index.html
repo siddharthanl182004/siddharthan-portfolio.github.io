@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siddharthan L | Aspiring Data Analyst</title>
+<meta name="description" content="Portfolio of Siddharthan L, aspiring Data Analyst skilled in SQL, Python, Power BI, Excel and Machine Learning.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- AOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-bars">
+    <span></span><span></span><span></span><span></span>
+  </div>
+</div>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="logo">Siddharthan<span class="dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button id="navToggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="hero">
+  <div class="hero-bg">
+    <div class="grid-overlay"></div>
+    <span class="floating-shape shape-1"></span>
+    <span class="floating-shape shape-2"></span>
+    <span class="floating-shape shape-3"></span>
+  </div>
+  <div class="hero-container">
+    <div class="hero-text" data-aos="fade-right">
+      <p class="hero-eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">Siddharthan L</h1>
+      <h2 class="hero-title">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-subtitle">SQL &nbsp;•&nbsp; Python &nbsp;•&nbsp; Power BI &nbsp;•&nbsp; Excel &nbsp;•&nbsp; Data Visualization &nbsp;•&nbsp; Machine Learning</p>
+      <p class="hero-summary">
+        I'm an MSc Data Science graduate passionate about transforming data into actionable insights.
+        I enjoy solving business problems through SQL, Python, Power BI, and data visualization while
+        continuously learning modern analytics techniques.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/your-profile" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual" data-aos="fade-left">
+      <div class="avatar-frame">
+        <div class="avatar-ring"></div>
+        <div class="avatar-placeholder">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <span class="badge badge-1"><i class="fa-solid fa-database"></i> SQL</span>
+        <span class="badge badge-2"><i class="fa-brands fa-python"></i> Python</span>
+        <span class="badge badge-3"><i class="fa-solid fa-chart-pie"></i> Power BI</span>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</header>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <p class="section-eyebrow" data-aos="fade-up">Get to know me</p>
+    <h2 class="section-title" data-aos="fade-up">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text" data-aos="fade-right">
+        <p>
+          I hold an <strong>MSc in Data Science</strong> and carry a genuine passion for analytics and business
+          intelligence. I like breaking down messy, real-world data into clear stories that help people make
+          decisions — that's what drew me to the Data Analyst path in the first place.
+        </p>
+        <p>
+          My strengths are analytical thinking and structured problem-solving: I enjoy the process of asking the
+          right question of a dataset, testing an approach, and refining it until the numbers actually make sense.
+          My goal right now is simple — earn my place as a professional Data Analyst and keep growing from there.
+        </p>
+      </div>
+      <div class="about-stats" data-aos="fade-left">
+        <div class="stat-card">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-label">Technologies Learned</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="1">0</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-label">GitHub Repositories</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="alt-bg">
+  <div class="container">
+    <p class="section-eyebrow" data-aos="fade-up">What I work with</p>
+    <h2 class="section-title" data-aos="fade-up">Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="0">
+        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+        <div class="skill-bar"><span class="skill-name">Python</span><div class="bar"><div class="bar-fill" data-level="85"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">SQL</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+      </div>
+
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+        <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Data Analysis</h3>
+        <div class="skill-bar"><span class="skill-name">Pandas</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">NumPy</span><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Statistics</span><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Exploratory Data Analysis</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+      </div>
+
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+        <h3><i class="fa-solid fa-chart-simple"></i> Visualization</h3>
+        <div class="skill-bar"><span class="skill-name">Power BI</span><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Excel</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Matplotlib</span><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Plotly</span><div class="bar"><div class="bar-fill" data-level="65"></div></div></div>
+      </div>
+
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+        <h3><i class="fa-solid fa-robot"></i> Machine Learning</h3>
+        <div class="skill-bar"><span class="skill-name">Regression</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Classification</span><div class="bar"><div class="bar-fill" data-level="78"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Clustering</span><div class="bar"><div class="bar-fill" data-level="65"></div></div></div>
+      </div>
+
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+        <h3><i class="fa-solid fa-server"></i> Databases</h3>
+        <div class="skill-bar"><span class="skill-name">MySQL</span><div class="bar"><div class="bar-fill" data-level="78"></div></div></div>
+      </div>
+
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+        <h3><i class="fa-solid fa-toolbox"></i> Tools</h3>
+        <div class="skill-bar"><span class="skill-name">Git</span><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">GitHub</span><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Jupyter Notebook</span><div class="bar"><div class="bar-fill" data-level="85"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">VS Code</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <p class="section-eyebrow" data-aos="fade-up">My work</p>
+    <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+
+    <div class="project-filters" data-aos="fade-up">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ml">Machine Learning</button>
+      <button class="filter-btn" data-filter="nlp">NLP</button>
+      <button class="filter-btn" data-filter="bi">BI &amp; SQL</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card" data-category="ml" data-aos="fade-up">
+        <div class="project-image"><i class="fa-solid fa-notes-medical"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Matplotlib</span>
+          </div>
+          <h3>Medical Insurance Premium Prediction</h3>
+          <p>Developed a Multiple Linear Regression model to predict insurance premiums. Performed preprocessing, feature engineering, model evaluation, and visualization.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ml" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-image"><i class="fa-solid fa-coins"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>Python</span><span>Machine Learning</span><span>Time Series</span><span>Pandas</span>
+          </div>
+          <h3>Data-Driven Gold Price Forecasting</h3>
+          <p>Built a predictive ARIMA-based model to forecast gold prices using historical market data, achieving a MAPE of roughly 4.5% on test data.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ml" data-aos="fade-up">
+        <div class="project-image"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>Python</span><span>Scikit-learn</span><span>Classification</span>
+          </div>
+          <h3>Online Payment Fraud Detection</h3>
+          <p>Built a classification model to flag fraudulent online transactions, reaching approximately 96% accuracy on the test set.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="nlp" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-image"><i class="fa-solid fa-brain"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>Python</span><span>NLP</span><span>BERT</span><span>Transformers</span>
+          </div>
+          <h3>Mental Health Risk Prediction: BERT vs SVM</h3>
+          <p>Compared traditional machine learning with transformer-based NLP models for predicting mental health risk among social media users.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-solid fa-file-lines"></i> Research Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="nlp" data-aos="fade-up">
+        <div class="project-image"><i class="fa-solid fa-comments"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>LangChain</span><span>FAISS</span><span>Streamlit</span>
+          </div>
+          <h3>AI-Powered RAG Chatbot for PDF Analysis</h3>
+          <p>Built a Retrieval-Augmented Generation chatbot that answers questions from uploaded PDF documents using LangChain, FAISS, and Streamlit.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="bi" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-image"><i class="fa-solid fa-chart-column"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>Power BI</span><span>Excel</span>
+          </div>
+          <h3>Power BI Sales Dashboard</h3>
+          <p>Interactive dashboard covering sales analysis, profit analysis, KPI tracking, and dynamic filters for business decision-making.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-solid fa-chart-pie"></i> Dashboard</a>
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="bi" data-aos="fade-up">
+        <div class="project-image"><i class="fa-solid fa-table"></i></div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span>SQL</span><span>MySQL</span>
+          </div>
+          <h3>SQL Business Analytics</h3>
+          <p>Business query library covering joins, CTEs, window functions, and stored procedures for real-world analytics scenarios.</p>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-solid fa-file-code"></i> SQL Scripts</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="alt-bg">
+  <div class="container">
+    <p class="section-eyebrow" data-aos="fade-up">Verified learning</p>
+    <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card" data-aos="zoom-in">
+        <i class="fa-solid fa-award"></i>
+        <h4>Business Intelligence and Analytics</h4>
+        <p>NPTEL</p>
+      </div>
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+        <i class="fa-brands fa-python"></i>
+        <h4>Python Programming</h4>
+        <p>Self-paced coursework</p>
+      </div>
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fa-solid fa-database"></i>
+        <h4>SQL</h4>
+        <p>Self-paced coursework</p>
+      </div>
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fa-solid fa-chart-pie"></i>
+        <h4>Power BI</h4>
+        <p>Self-paced coursework</p>
+      </div>
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="400">
+        <i class="fa-solid fa-file-excel"></i>
+        <h4>Excel</h4>
+        <p>Self-paced coursework</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education">
+  <div class="container">
+    <p class="section-eyebrow" data-aos="fade-up">Academic background</p>
+    <h2 class="section-title" data-aos="fade-up">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>MSc Data Science</h3>
+          <p class="timeline-org">Vellore Institute of Technology</p>
+          <p class="timeline-year">2024 &ndash; 2026</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>BSc Computer Science</h3>
+          <p class="timeline-org">Undergraduate Studies</p>
+          <p class="timeline-year">Completed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="alt-bg resume-section">
+  <div class="container resume-container" data-aos="fade-up">
+    <div>
+      <h2 class="section-title small-title">My Resume</h2>
+      <p>A complete overview of my education, skills, and project experience — ready to share with recruiters.</p>
+    </div>
+    <a href="assets/resume.pdf" class="btn btn-primary" download>
+      <i class="fa-solid fa-download"></i> Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <p class="section-eyebrow" data-aos="fade-up">Let's talk</p>
+    <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+
+    <div class="contact-grid">
+      <form class="contact-form" data-aos="fade-right" id="contactForm">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+
+      <div class="contact-info" data-aos="fade-left">
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div><h4>Email</h4><p>your.email@example.com</p></div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <div><h4>LinkedIn</h4><p>linkedin.com/in/your-profile</p></div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <div><h4>GitHub</h4><p>github.com/your-profile</p></div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><h4>Location</h4><p>Chennai, Tamil Nadu, India</p></div>
+        </div>
+        <div class="map-placeholder">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <span>Map placeholder — embed Google Maps here</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container footer-container">
+    <p>&copy; <span id="year"></span> Siddharthan L. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="footer-socials">
+      <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/your-profile" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <p class="footer-credit">Designed by Siddharthan L</p>
+</footer>
+
+<button id="scrollTop" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
